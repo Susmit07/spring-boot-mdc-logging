@@ -1,4 +1,4 @@
-package com.moelholm;
+package com.mdc.logging;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,7 +13,7 @@ import static org.junit.Assert.assertThat;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
-public class GreetingControllerIntegrationTest {
+public class FrontControllerIntegrationTest {
 
     @Autowired
     private TestRestTemplate restTemplate;
